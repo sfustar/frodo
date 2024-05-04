@@ -38,3 +38,6 @@ export const QuestClaimDtoSchema = z.object({
 });
 
 export type QuestClaimDto = z.infer<typeof QuestClaimDtoSchema>;
+export type LevelAccess = z.infer<typeof LevelAccessSchema>;
+export type DateAccess = z.infer<typeof DateAccessSchema>;
+export type DiscordRoleAccess = z.infer<typeof DiscordRoleAccessSchema>;
