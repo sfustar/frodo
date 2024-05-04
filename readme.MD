@@ -9,14 +9,10 @@
 - `docker run -p 3000:3000 demo`
 
 
-
-Share with 
-fredrika@zealy.io
-louis@zealy.io
-
+## Endpoint for testing
+- `POST` http://localhost:3000/quest/claim
 
 
 ## Notes
-
 - Expected output example has status `success` and score `3`
 - That state is invalid as score needs to be >= 5 to be success
